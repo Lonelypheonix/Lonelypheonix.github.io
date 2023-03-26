@@ -1,0 +1,404 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+}
+.content{
+  display:grid;
+  grid-template-rows: auto;
+  grid-row-gap: 0px;
+  width: 100%;
+}
+
+body{
+    background: #ecebeb;
+    color: #434343;
+}
+/* .mySlides {display:left;} */
+/* banner section start */
+
+.banner_section {
+  width: 100%;
+  float: left;
+}
+
+.banner_taital_main {
+  width: 100%;
+  float: left;
+}
+
+.banner_taital {
+  width: 100%;
+  float: left;
+  font-size: 50px;
+  color: #f7f7fd;
+  font-weight: bold;
+}
+.banner_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #f7f7fd;
+  margin: 0px;
+}
+
+.btn_main {
+  width: 100%;
+  float: left;
+  padding-top: 40px;
+}
+
+.about_bt {
+  width: 170px;
+  float: left;
+}
+
+.about_bt a {
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  color: #030101;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 40px;
+}
+
+.about_bt a:hover {
+  color: #000;
+  background-color: #fcce2d;
+}
+.about_bt.active a {
+  color: #000;
+  background-color: #fcce2d;
+}
+
+.quote_bt {
+  width: 170px;
+  float: left;
+  margin-left: 15px;
+}
+
+.quote_bt a {
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #191919;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 40px;
+}
+
+.quote_bt a:hover {
+  color: #030101;
+  background-color: #fcce2d;
+}
+
+#my_slider a.carousel-control-prev {
+  position: absolute;
+  left: 20px;
+  top: 20%;
+  background-color: #fff;
+  color: #000;
+}
+
+#my_slider a.carousel-control-next {
+  position: absolute;
+  right: 20px;
+  top: 20%;
+}
+#my_slider .carousel-control-prev,
+#my_slider .carousel-control-next {
+  width: 65px;
+  height: 65px;
+  background: #fff;
+  opacity: 1;
+  font-size: 30px;
+  color: #000;
+  border-radius: 100%;
+}
+
+#my_slider .carousel-control-prev:hover,
+#my_slider .carousel-control-next:hover,
+#my_slider .carousel-control-prev:focus,
+#my_slider .carousel-control-next:focus {
+  background: #fff;
+  color: #000;
+}
+
+
+/* banner section end */
+.content{
+  display:grid;
+  grid-template-rows: auto;
+  grid-row-gap: 0px;
+  width: 100%;
+}
+.num{
+    background-image:
+            linear-gradient(180deg,
+              rgba(66, 245, 191, 0.75),
+              rgba(66, 245, 191, 0.75)), url('./img/bgOfPG.jpg');
+  }
+.num h1{
+    font-size: 10vh;
+    text-transform: uppercase;
+    text-align: center;
+  }
+.num span{
+    font-size: 5vh;
+    font-weight: 100;
+  }
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    width: 100%;
+  }
+  .row .con span{
+    font-size: 10vh;
+  }
+  .row p{
+    font-size: 3vh;
+  }
+  .row i{
+    font-size: 8vh;
+  }
+
+.uni{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5%;
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;*/
+    width: 100%;
+    background-image:
+    linear-gradient(180deg,
+      rgba(66, 245, 230, 0.75),
+      rgba(66, 245, 230, 0.75)), url('../img/different-bg.png');
+}
+@media only screen and (max-width: 991px) {
+    .uni{
+        display: grid;
+        grid-template-columns: auto;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    i{
+      font-size: 50%;
+    }
+    p{
+        font-size: 50%;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    i{
+        font-size: 46.87%;
+      }
+      p{
+        font-size: 46.87%;
+      }
+    }
+.ask{
+    font-weight: 100;
+    padding: 20px;
+}
+.ask i{
+    font-size: 12vh;
+}
+.ask span{
+    font-weight: 300;
+    font-size: 10vh;
+}
+
+.numU{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5%;
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: left;*/
+    width: 100%;
+    gap: 30px;
+    text-align: left;
+    padding: 30px;
+}
+
+.numU i{
+    font-size: 8vh;
+}
+.numU p{
+    font-size: 4vh;
+}
+
+.aboutUs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    padding: 20px;
+    animation-name: mymoveT;
+    animation-duration: 3s;
+  }
+  #con h1{
+    font-size: 10vh;
+  }
+  #con p{
+    font-size: 2vh;
+  }
+  .aboutUs img{
+    height: 250px;
+    width: 250px;
+  }
+  
+
+.findUS{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 45px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+.find01{
+    font-weight: 100;
+    padding: 20px;
+    animation-name: mymoveL;
+    animation-duration: 3s;
+}
+.find01 i{
+    font-size: 12vh;
+}
+.find01 span{
+    font-weight: 300;
+    font-size: 10vh;
+}
+  
+.find02{
+    font-weight: 100;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    animation-name: mymoveR;
+    animation-duration: 3s;
+}
+.find02 i{
+    font-size: 12vh;
+    padding: 20px;
+}
+
+
+@keyframes mymoveR {
+    0%{
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(100%);
+    }
+    75%{
+        transform: translateX(-10%);
+        filter: blur(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+  @keyframes mymoveL {
+    0%{
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(-100%);
+    }
+    75%{
+        transform: translateX(10%);
+        filter: blur(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+  @keyframes mymoveT {
+    0%{
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateY(-100%);
+    }
+    75%{
+        transform: translateY(10%);
+        filter: blur(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  
+
+  @media only screen and (max-width: 500px) {
+    .find02 i{
+      font-size: 4vh;
+  }
+  .find01 i{
+    font-size: 4vh;
+}
+.find01 span{
+    font-size: 4vh;
+}
+#con h1{
+  font-size: 4vh;
+}
+#con p{
+  font-size: 1.8vh;
+}
+
+.ask i{
+  font-size: 4vh;
+}
+.ask span{
+  font-size: 4vh;
+}
+.num h1{
+  font-size: 2vh;
+}
+.num span{
+  font-size: 4vh;
+}
+  }
+
+  @media only screen and (max-width: 575px) {
+    .row .con span{
+      font-size: 4vh;
+    }
+    .row p{
+      font-size: 1.8vh;
+    }
+    .row i{
+      font-size: 4vh;
+    }
+    .container h1{
+      font-size: 4vh;
+    }
+    .container span{
+      font-size: 3vh;
+    }
+    .numU i{
+      font-size: 4vh;
+  }
+  .numU p{
+      font-size: 1.8vh;
+  }
+  .numU{
+    font-size: 4vh;
+  }
+  }  
